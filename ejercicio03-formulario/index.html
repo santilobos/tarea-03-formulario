@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type="image/x-icon" href="./assets/form-icon.svg">
+</head>
+
+<body>
+    <h1>Formulario de ingreso al <i>Club Viejuner</i></h1>
+
+    <section id="form01">
+    
+        <fieldset>
+        <legend>El club viejuner</legend>
+            <form class="form-style">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" placeholder="Indica tu nombre" autofocus tabindex="1"><br>
+    
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text" name="apellidos" placeholder="Primer apellido" autofocus tabindex="3">
+                <input type="text" name="apellidos" placeholder="Segundo apellido" autofocus tabindex="2"><br>
+    
+                <label for="edad">Edad:</label><br>
+                <input type="number" name="edad" placeholder="Indica tu edad"><br>
+    
+    
+                <label for="radio">Sexo</label><br>     
+                <input id="radio" type="radio" name="sexo" value="Masculino">
+                <label for="html">Masculino</label>
+                <input id="radio" type="radio" name="sexo" value="Femenino">
+                <label for="css">Femenino</label><br>
+    
+                
+                <label for="checkbox">Confirma con la casilla si te sientes viejuner</label><br>  
+                <input type="checkbox" id="checkbox" name="viejuner" value="viejuner">
+                <label for="viejuner"> Me siento viejuner</label><br>
+    
+                <label for="about">Escribe algo sobre ti</label><br>
+                <textarea rows="10" cols="50" placeholder="Deja aquí tu comentario"></textarea><br>
+    
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Indica tu email"><br>
+    
+                <label for="telefono">Teléfono</label><br>
+                <input type="tel" name="telefono" pattern="[0-9]{9}" placeholder="Añade tu teléfono"><br>
+                
+                <input type="reset" value="Reset">
+                <input type="submit" value="Enviar formulario" id="submit">
+            </form> 
+          </section>
+        </fieldset>
+        
+    
+      <section id="form02">
+    
+        <form class="form-style">
+           <fieldset>
+            <legend>Los ladronzuelos de bicicletas</legend>
+            <label for="date">Día:</label><br>
+            <input type="date" id="date" name="date"><br>
+
+            <label for="time">Indica una hora:</label><br>
+            <input type="time" id="time" name="time"><br>
+
+            <label for="color">Selecciona el color de tu bicicleta:</label><br>
+            <input type="color" id="color" name="color" value="#ff0000"><br>
+
+            <label for="range">Elige un rango de precio (entre 0€ y 3500€):</label><br>
+            <input type="range" id="range" name="range" min="0" max="3500"><br>
+
+            <label for="select">Indica el tipo de bicicleta</label><br>
+            <select name="select" id="select">
+              <optgroup label="paseo">
+                <option value="señorial">Señorial</option>
+                <option value="anti-plebeyos">Anti-Plebeyos</option>
+                <option value="porEncimaDelHombro">Por encima del hombro</option>
+              </optgroup>
+              <optgroup label="montaña">
+                <option value="gamusinos">Gamusinos</option>
+                <option value="hueleFloresPremium">Hueleflores Premium</option>
+                <option value="fangoLover">Fango Lover</option>
+              </optgroup>
+              <optgroup label="carreras">
+                <option value="metroYMedio">Metroymedio</option>
+                <option value="3deLaTarde">3 de la tarde. Fluorescente edition</option>
+                <option value="grupitors">Grupitors</option>
+              </optgroup>
+            </select><br>
+
+            <label for="multiple">Escoge los accesorios que consideres necesarios. <br> Manten pulsado comando para seleccionar varios de ellos</label><br>
+            <select name="multiple" id="multiple" multiple>
+                <option value="ruedines">Ruedines</option>
+                <option value="pegatinas">Pegatinas</option>
+                <option value="cestita">Cestita</option>
+                <option value="bombaDeAire">Bomba de aire</option>
+                <option value="timbre">Timbre</option>
+                <option value="foco">Foco</option>
+              </select><br>
+
+              <label for="marca">¿Qué marca era?:</label><br>
+              <input list="marcas" name="marca" id="marca">
+              <datalist id="marcas">
+                <option value="Specialized">
+                <option value="Trek">
+                <option value="Merida">
+                <option value="Scott">
+                <option value="Giant">
+                <option value="Cube">
+                <option value="Lapierre">
+                <option value="Orbea">
+                <option value="Cannondale">
+                <option value="BMC">
+                <option value="Canyon">
+                <option value="Look">
+                <option value="Protek">
+                <option value="Megamo">
+                <option value="Pinarello">
+                <option value="Bianchi">
+                <option value="BH">
+                <option value="Factor">
+                <option value="Ghost">
+                <option value="Cervélo">
+                <option value="Argon">
+              </datalist><br>
+ 
+             <input type="reset" value="Reset">
+            <input type="submit" value="Enviar formulario" id="submit">
+        </form> 
+      </section>
+
+           </fieldset> 
+            
+
+
+    
+
+
+</body>
+</html>
+
+
+
+

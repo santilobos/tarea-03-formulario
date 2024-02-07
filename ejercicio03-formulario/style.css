@@ -1,0 +1,73 @@
+input {
+    margin-top: 8px;
+    margin-bottom: 40px;
+    margin-right: 24px;
+}
+
+textarea {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+select {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 50%;
+}
+
+
+#radio {
+    margin-right: 4px;
+}
+
+#checkbox {
+    margin-right: 4px;
+}
+
+#form01, #form02 {
+    background-color: #f5f5f5;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    border-radius: 16px;
+}
+
+ input[type=submit] {
+    background-color: #3004aa;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+
+ input[type=reset] {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #3004aa;
+    color: #3004aa;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+
+ legend {
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+
+ fieldset {
+    border-radius: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+ }
